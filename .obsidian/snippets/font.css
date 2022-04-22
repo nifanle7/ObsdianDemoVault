@@ -1,0 +1,75 @@
+:root{
+    /*----------------------------------------------------------------
+     Font styles
+     Preview mode and UI */
+     --default-font: Avenir next, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
+     Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+     
+     /* Editor mode */
+     --text-editor: Avenir next, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+     
+     /* Code */
+     --font-monospace: Menlo, SFMono-Regular, Consolas, Sarasa Mono Slab J,"Roboto Mono", monospace;   
+
+     /* Table */
+     --font-table: Sarasa Mono Slab J, SFMono-Regular, Consolas, "Roboto Mono", monospace;   
+   }
+   
+   body { /*Text body*/
+     font-family: var(--default-font);
+   }
+   
+   text{
+     font-family: var(--default-font);
+   }
+
+  /* yaml */
+  .cm-s-obsidian .cm-hmd-frontmatter{
+    font-family: var(--text-editor);
+  }
+
+   
+   .markdown-preview-view blockquote {
+     font-family: var(--default-font);
+   }
+   
+   .markdown-source-view {  /*Editor Mode*/
+     font-family: var(--text-editor) !important;
+   }
+   
+   .cm-s-obsidian .HyperMD-table-row {
+     font-family: var(--font-table) !important;
+   }
+   
+   .cm-s-obsidian .hmd-fold-html-stub,
+   .cm-s-obsidian .hmd-fold-code-stub,
+   .cm-s-obsidian.CodeMirror .HyperMD-hover > .HyperMD-hover-content code,
+   .cm-s-obsidian .cm-formatting-hashtag,
+   .cm-s-obsidian .cm-inline-code,
+   .cm-s-obsidian .HyperMD-codeblock,
+   .cm-s-obsidian .HyperMD-hr,
+   .cm-s-obsidian .cm-hmd-orgmode-markup,
+   .cm-s-obsidian .cm-formatting-code,
+   .cm-s-obsidian .cm-math,
+   .cm-s-obsidian span.hmd-fold-math-placeholder,
+   .cm-s-obsidian .CodeMirror-linewidget kbd,
+   .cm-s-obsidian .hmd-fold-html kbd {
+     font-family: var(--font-monospace);
+   }
+   
+   .cm-s-obsidian .HyperMD-codeblock {
+     font-family: var(--font-monospace);
+   }
+   
+   .markdown-preview-view code {
+     font-family: var(--font-monospace);
+   }
+   
+    /* Code blocks */
+     /* Inline code */
+   
+   code[class*="language-"],
+   pre[class*="language-"] {
+     font-family: var(--font-monospace);
+   }

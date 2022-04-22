@@ -1,0 +1,29 @@
+.frontmatter-section-tags .tag, .tag{
+    background-color: hsl(211,100%,50%) !important;
+    border: none !important;
+    color: white !important;
+    font-size: 11px !important;
+    padding: 1px 8px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    margin: 0px 4px !important;
+    cursor: pointer !important;
+    border-radius: 14px !important;
+  }
+  
+  .tag[href^="#FinTech"] {
+    background-color: #43d8c9 !important;
+  }
+  
+  .tag[href^="#Highlight"]{
+    background-color: #dd7631 !important;
+  }
+  
+  .tag[href^="#Important"] {
+    background-color: #f67280 !important;
+  }
+  
+  .tag[href^="#Book"], .tag[href^="#Git"] {
+    background-color: #ffa41b !important;
+  }

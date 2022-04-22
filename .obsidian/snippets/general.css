@@ -1,0 +1,293 @@
+:root{
+
+  --h1-size: 1.602em;
+  --h1-line-height: 1.4;
+  --h1-margin-top: 1;
+  --h1-margin-bottom: 0.8; 
+  --h1-weight: 500; 
+  --h1-style: normal; 
+
+  --h2-size: 1.424em;
+  --h2-line-height: 1.4;
+  --h2-margin-top: 0.9;
+  --h2-margin-bottom: 0.5; 
+  --h2-weight: 500; 
+  --h2-style: normal; 
+
+  --h3-size: 1.266em;
+  --h3-line-height: 1.4;
+  --h3-margin-top: 0.8;
+  --h3-margin-bottom: 0.5; 
+  --h3-weight: 500; 
+  --h3-style: normal; 
+
+  --h4-size: 1.125em;
+  --h4-line-height: 1.5;
+  --h4-margin-top: 0.7;
+  --h4-margin-bottom: 0.5; 
+  --h4-weight: 500; 
+  --h4-style: normal; 
+
+  --h5-size: 1em;
+  --h5-line-height: 1.5;
+  --h5-margin-top: 0.6;
+  --h5-margin-bottom: 0.5; 
+  --h5-weight: 500; 
+  --h5-style: normal; 
+
+  --h6-size: 1em;
+  --h6-line-height: 1.5;
+  --h6-margin-top: 0.5;
+  --h6-margin-bottom: 0.5; 
+  --h6-weight: 500; 
+  --h6-style: normal;
+
+  --line-height: 1.8;
+
+}
+
+/* 行高设置 */
+html, body, input, textarea, button, .cm-s-obsidian .cm-formatting-hashtag, .cm-s-obsidian, .cm-s-obsidian span.cm-quote, .markdown-source-view, .CodeMirror-line .cm-hashtag{
+  line-height:var(--line-height) !important;
+}
+
+/* 隐藏侧边栏的其他库和帮助图标 */
+
+.side-dock-settings .vault, .side-dock-settings .help{
+  display: none;
+}
+
+/* bullets */
+.outliner-plugin-bls .cm-s-obsidian span.cm-formatting-list-ul:before{
+  content: "•" !important;
+  margin-top: 3.5px !important;
+  margin-left: 0px !important;
+  font-size: 12px !important;
+  position:inherit;
+
+}
+
+.outliner-plugin-bls .cm-s-obsidian span.cm-formatting-list{
+  letter-spacing: 3px !important;
+}
+
+
+/* Minimal 主题实时预览 outliner CSS */
+.list-bullet:after{
+  content: "•" !important;
+  margin-top: 3.5px !important;
+  margin-left: 0px !important;
+  font-size: 12px !important;
+  line-height: 1.4em !important;
+  position:inherit;
+}
+
+
+/* blockquote */
+.markdown-preview-section blockquote {
+
+  /* Chinese is not suit for italic */
+  font-style: normal;
+  border-radius: 0 4px 4px 0;
+  border: 1px solid rgb(227,227,227);
+  border-left-width: 5px;
+  padding: 10px 20px;
+  margin-block-start: 0px;
+}
+
+/* .markdown-preview-section blockquote:before {
+  position: absolute;
+  left: 0;
+  line-height: 1.88889 !important;
+} */
+
+/* link no hover */
+.markdown-preview-section a:hover {
+  box-shadow: none;
+  text-shadow: none;
+}
+
+/* line height */
+html,
+body,
+input,
+textarea,
+button,
+.cm-s-obsidian .cm-formatting-hashtag,
+.cm-s-obsidian,
+.cm-s-obsidian span.cm-quote,
+.markdown-source-view,
+.CodeMirror-line .cm-hashtag
+{
+  line-height: var(--line-height) !important;
+  font-style: normal !important;
+}
+
+/* h1 */
+.cc-pretty-preview .markdown-preview-view h1,
+.markdown-preview-view h1,
+.empty-state-title,
+.CodeMirror .CodeMirror-line.HyperMD-header-1,
+.embedded-note-titles .markdown-preview-view:not(.community-plugin-readme) > h1,
+.embedded-note-titles .CodeMirror-scroll > h1{
+  font-size: var(--h1-size) !important;
+}
+
+/* h2 */
+.cc-pretty-preview .markdown-preview-view h2,
+.markdown-preview-view h2,
+.CodeMirror .CodeMirror-line.HyperMD-header-2
+{
+  font-size: var(--h2-size) !important;
+}
+
+/* h3 */
+.cc-pretty-preview .markdown-preview-view h3,
+.markdown-preview-view h3,
+.CodeMirror .CodeMirror-line.HyperMD-header-3
+{
+  font-size: var(--h3-size) !important;
+}
+
+/* h4 */
+.cc-pretty-preview .markdown-preview-view h4,
+.markdown-preview-view h4,
+.CodeMirror .CodeMirror-line.HyperMD-header-4
+{
+  font-size: var(--h4-size) !important;
+}
+
+/* h5 */
+.cc-pretty-preview .markdown-preview-view h5,
+.markdown-preview-view h5,
+.CodeMirror .CodeMirror-line.HyperMD-header-5
+{
+  font-size: var(--h5-size) !important;
+}
+
+/* h6 */
+.cc-pretty-preview .markdown-preview-view h6,
+.markdown-preview-view h6,
+.CodeMirror .CodeMirror-line.HyperMD-header-6
+{
+  font-size: var(--h6-size) !important;
+}
+
+
+/* 导航栏设置 */
+
+.nav-action-button{
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+}
+
+.nav-file-title-content, .nav-folder-title-content{
+	white-space: nowrap;  
+	text-overflow: ellipsis; 
+	overflow: hidden;
+	font-size: 13px;
+}
+
+/* 列表为小圆点 */
+ul {
+  list-style-type: disc !important;
+}
+
+.view-header-icon{
+  padding: 1px 10px;
+}
+
+.view-header-title{
+  font-size: 16px;
+}
+
+
+/* banner 优化，banner高度+20px，需要手动修改 */
+.obsidian-banner-wrapper{
+  margin-top: 260px !important;
+}
+
+/* 加粗样式 */
+/*.cm-s-obsidian .cm-strong, .markdown-preview-section strong {
+    color: #007bff;
+}*/
+
+/* Obsidian TODO 插件自定义样式 */
+
+/*.todo-item-view-toolbar{*/
+/*  height: 20px;
+  width: 20px;*/
+/*}*/
+
+.todo-item-view-toolbar-item svg{
+  height: 23px;
+  width: 23px;
+}
+
+.todo-item-view-toolbar-item.active svg{
+  fill: hsl(43,78%,52%) !important;
+}
+
+
+.todo-item-view-item{
+  background-color: #F2F3F5;
+  border-radius: 8px;
+  margin: 0 0 6px; 
+  padding: 1px;
+  cursor: pointer;
+  transition: background-color 100ms ease-in-out;
+  height: 40px;
+  font-size: 13px;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+
+.todo-item-view-item-checkbox{
+  padding-left: 10px;
+}
+
+.todo-item-view-item-link{
+  padding-right: 10px;
+}
+
+.todo-item-view-item-link svg{
+  height: 16px;
+  width: 16px;
+  overflow: hidden ;
+
+}
+
+
+
+/* For Minimal Theme */
+
+.side-dock-settings{
+  padding-bottom: 0px;
+  margin-bottom: 0px;;
+
+}
+
+.view-header-title-container{
+  width: auto;
+  position: inherit;
+}
+
+.todo-item-view-toolbar-item svg{
+  height: 16px;
+  width: 16px;
+}
+
+.todo-item-view-item-description p{
+  font-size: 12px;
+}
+
+.cm-s-obsidian, .cm-s-obsidian .cm-formatting-hashtag, .markdown-preview-view, body, button, input{
+  font-size: 14px;
+}
+
+/* 编辑模式加粗星号样式 */
+.cm-formatting.cm-formatting-strong.cm-strong{
+  color: #AAA9A5;
+}

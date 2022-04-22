@@ -1,0 +1,119 @@
+{
+  "main": {
+    "id": "ec821402f08c769b",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa157cfd4747e13c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "pages/说明.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3bff42b77a33b91b",
+    "type": "split",
+    "children": [
+      {
+        "id": "72c1cba91b53d945",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d0f2db098c15946",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fe62a92797a23092",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 154
+  },
+  "right": {
+    "id": "2081f9f9c3b7e1f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2672a96f35edca09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c59ae87c93164216",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "34b8b9846a08df67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aae86988a70c4b69",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5a46ad54b95c613c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pages/说明.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 244.5
+  },
+  "active": "aa157cfd4747e13c",
+  "lastOpenFiles": [
+    "pages/说明.md",
+    "advanced/Tag List.md",
+    "advanced/Random Note.md",
+    "journals/2022-04-22.md",
+    "pages/读《余生皆假期》.md",
+    "pages/读《指数基金投资指南》.md",
+    "pages/《拉丁美洲被切开的血管》笔记.md",
+    "pages/《江海寄余生》笔记.md",
+    "template/media/banner2.jpg",
+    "template/media/banner1.jpg"
+  ]
+}

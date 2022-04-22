@@ -1,0 +1,63 @@
+/* 给左侧边栏文件夹前添加图标，""内图标和文件夹名称请自行修改 */
+
+:root{
+    /* California Coast 推荐 4px */
+    /* Minimal 推荐 0.9px */
+    --right: 4px;
+}
+
+
+.nav-folder-title[data-path$="advanced"] .nav-folder-title-content::before {
+    content: "📌" !important;
+    position: relative !important;
+    right: var(--right);
+}
+
+.nav-folder-title[data-path$="attachment"] .nav-folder-title-content::before {
+    content: "🗂️" !important;
+    position: relative !important;
+    right: var(--right);
+}
+
+.nav-folder-title[data-path$="blog"] .nav-folder-title-content::before {
+    content: "📝" !important;
+    position: relative !important;
+    right: var(--right);
+}
+
+.nav-folder-title[data-path$="dev"] .nav-folder-title-content::before {
+    content: "💻" !important;
+    position: relative !important;
+    right: var(--right);
+}
+
+.nav-folder-title[data-path$="pinboard"] .nav-folder-title-content::before {
+    content: "📦" !important;
+    position: relative !important;
+    right: var(--right);
+}
+
+
+.nav-folder-title[data-path$="journals"] .nav-folder-title-content::before {
+    content: "🌏" !important;
+    position: relative !important;
+    right: var(--right);
+}
+
+.nav-folder-title[data-path$="pages"] .nav-folder-title-content::before {
+    content: "🎨" !important;
+    position: relative !important;
+    right: var(--right);
+}
+
+.nav-folder-title[data-path$="work"] .nav-folder-title-content::before {
+    content: "💼" !important;
+    position: relative !important;
+    right: var(--right);
+}
+
+.nav-folder-title[data-path$="template"] .nav-folder-title-content::before {
+    content: "📑";
+    position: relative !important;
+    right: var(--right);
+}
